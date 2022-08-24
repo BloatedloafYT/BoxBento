@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Bloatedloaf',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -31,7 +31,7 @@ const CONFIG = {
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
-	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
+	trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
 	defaultLatitude: '37.775',
 	defaultLongitude: '-122.419',
 
@@ -39,10 +39,10 @@ const CONFIG = {
 	autoChangeTheme: true,
 
 	// Autochange by OS
-	changeThemeByOS: true,
+	changeThemeByOS: false,
 
 	// Autochange by hour options (24hrs format, string must be in: hh:mm)
-	changeThemeByHour: false,
+	changeThemeByHour: true,
 	hourDarkThemeActive: '18:30',
 	hourDarkThemeInactive: '07:00',
 
@@ -55,13 +55,13 @@ const CONFIG = {
 			id: '1',
 			name: 'Github',
 			icon: 'github',
-			link: 'https://github.com/',
+			link: 'https://github.com/Bloatedloafyt',
 		},
 		{
 			id: '2',
-			name: 'Mail',
+			name: 'Newgrounds',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://www.newgrounds.com/',
 		},
 		{
 			id: '3',
@@ -77,9 +77,9 @@ const CONFIG = {
 		},
 		{
 			id: '5',
-			name: 'Reddit',
+			name: 'School',
 			icon: 'glasses',
-			link: 'https://reddit.com',
+			link: 'https://www.time4learning.com/Login/SingleLogin/StudentLogin.aspx#/home',
 		},
 		{
 			id: '6',
@@ -104,7 +104,7 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'bot',
+			name: 'Discord',
 			icon: 'bot',
 			link: 'https://discord.com/app',
 		},
@@ -116,9 +116,9 @@ const CONFIG = {
 		},
 		{
 			id: '5',
-			name: 'Hashnode',
+			name: 'Khan Academy',
 			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
+			link: 'https://www.khanacademy.org/',
 		},
 		{
 			id: '6',
@@ -161,20 +161,20 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Programming Talk',
+					link: 'https://www.youtube.com/playlist?list=PLcDI--gZ--U5Fcjry4x4LWsQ3u3kd9B4E',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Reading',
+					link: 'https://bloatedloafgame.neocities.org/progaming.txt',
 				},
 				{
 					name: 'Trello',
 					link: 'https://www.trello.com',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Demoscening',
+					link: 'https://github.com/psenough/teach_yourself_demoscene_in_14_days',
 				},
 			],
 		},
@@ -191,16 +191,16 @@ const CONFIG = {
 					link: 'https://www.spotify.com',
 				},
 				{
-					name: 'Reddit',
-					link: 'https://www.reddit.com',
+					name: 'Game Programming Patterns',
+					link: 'http://gameprogrammingpatterns.com/',
 				},
 				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
+					name: 'Dome Engine Guide',
+					link: 'https://domeengine.com/guides/',
 				},
 				{
 					name: 'Pocket',
-					link: 'https://www.pocket.com',
+					link: 'http://craftinginterpreters.com/',
 				},
 			],
 		},
@@ -209,8 +209,8 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Front',
-					link: 'https://www.reddit.com/r/Frontend/',
+					name: 'pico8 lib',
+					link: 'https://github.com/Brin-o/Lib-Pico8/',
 				},
 				{
 					name: 'Rust',
