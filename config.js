@@ -122,9 +122,9 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'Figma',
+			name: 'Love2D',
 			icon: 'figma',
-			link: 'https://figma.com/',
+			link: 'https://sheepolution.itch.io/how-to-love',
 		},
 	],
 
